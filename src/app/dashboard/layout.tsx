@@ -1,4 +1,4 @@
-import { SiderBar } from "../components";
+import { SiderBar } from "@/components";
 
 
 export default function DashboardLayout({
@@ -14,7 +14,7 @@ export default function DashboardLayout({
                 <SiderBar />
 
 
-                <div className="p-2 w-full text-slate-900">
+                <div className=" w-full text-slate-900">
                     {children}
                 </div>
             </div>
